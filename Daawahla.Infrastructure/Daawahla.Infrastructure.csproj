@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Dapper" Version="2.0.35" />
+	  <PackageReference Include="MailKit" Version="2.13.0" />
+	  <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
+	  <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+	  <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+	  <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+	   <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.12.2" />
+	  <PackageReference Include="Twilio" Version="5.47.0" />
+	  <PackageReference Include="Twilio.AspNet.Core" Version="5.33.1" />
+	
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Daawahla.Application\Daawahla.Application.csproj" />
+    <ProjectReference Include="..\Daawahla.Core\Daawahla.Core.csproj" />
+  </ItemGroup>
+
+</Project>
