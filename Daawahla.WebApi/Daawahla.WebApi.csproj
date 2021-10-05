@@ -15,6 +15,7 @@
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.2" />
   </ItemGroup>
 
+  
   <ItemGroup>
     <ProjectReference Include="..\Daawahla.Application\Daawahla.Application.csproj" />
     <PackageReference Include="MicroKnights.Log4NetAdoNetAppender" Version="2.2.0" />
