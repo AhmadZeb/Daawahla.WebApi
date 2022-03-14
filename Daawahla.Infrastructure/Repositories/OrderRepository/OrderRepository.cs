@@ -12,9 +12,7 @@ using System.Threading.Tasks;
 namespace Daawahla.Infrastructure.Repositories.OrderRepository
 {
     public class OrderRepository : IOrderRepository
-    {
-         
-         
+    {          
         private readonly IConfiguration configuration;
         public OrderRepository(IConfiguration configuration)
         {
